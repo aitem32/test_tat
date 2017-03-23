@@ -11,8 +11,133 @@ body {
 }
 .main_content
  {
- 	.container {
- 		background-color: #fff;	
- 	}
-	
+ 	background-color: #fff;
+ 	padding: 5px 20px 5px 5px;
+ 
 }
+
+.wrapper {
+	display: flex;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.aside_adv {
+	width: 300px;
+}
+
+.aside_adv_list {
+	padding: 0;
+}
+.aside_adv_item {
+	margin-bottom: 10px;
+}
+.aside_adv_link {
+	font-size: 0;
+}
+
+//=======pre_nav========
+.pre_nav_list {
+	display: flex;
+	margin-top: 20px;
+	padding: 0 10px ;
+}
+
+.pre_nav_item{
+	padding: 0 5px;
+	border-right: 1px solid #000;
+	&:last-child {
+		border-right: none;
+	}
+}
+
+.pre_nav_link {
+	color: #000;
+	font-family: Tahoma;
+}
+
+//=====top_banner============
+.top_banner{
+	background-color: #0098a3;
+	padding: 2px 20px 0;
+	text-align: center;
+}
+.top_banner_link {
+	width: 100%;
+	font-size: 0;
+}
+
+.top_banner_img{
+	width: 100%;
+}
+
+//=========header===============
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;	
+	border-bottom: 3px solid #000;
+	padding-bottom: 5px;
+}
+
+.logo_sites {
+	display: flex;
+	width: 45%;
+	padding: 0;
+	width: 50%;
+	margin-right: 50px;
+}
+
+.logo_sites_text {
+	font-family: Tahoma;
+	font-size: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.3;
+
+}
+.header_news {
+	width: 20%;
+	text-align: left;
+	font-weight: bold;
+	font-family: Tahoma;
+	line-height: 1.5;
+	margin-right: 50px;
+
+}
+
+.header_news_title {
+	padding: 3px 5px ;
+	display: inline-block;
+	margin: 0 0 5px;
+}
+
+.right_part_header {
+	width: 25%;
+	text-align: right;
+}
+
+.find_input {
+	width: 150px;
+}
+
+.grey_bg {
+	background-color: #656565;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.tat_logo,
+.find_form {
+	margin-bottom: 5px;
+}
+
+.today_date {
+	background-color: #e5e5e5;
+	display: inline-block;
+	padding: 3px;
+	font-size: 10px;
+	color: grey;
+}
+//==========nnnavigation======
