@@ -1,0 +1,201 @@
+.wrapper
+	//=====pre_navigation=====
+	.pre_nav
+		ul.pre_nav_list
+			li.pre_nav_items
+				a.pre_nav_link(href='#') О газете
+			li.pre_nav_item
+				a.pre_nav_link(href='#') Реклама на сайте
+	//=====top_banner===========
+	
+	.top_banner
+		a.top_banner_link(href='#' target='_blank') Подарки за подписку
+			img.top_banner_img(src='./assets/img/ad1.png' alt='Подарки за подписку')
+
+	.main_content
+			//=======header=========
+			header.header
+				.container
+					.logo_sites
+						.logo_sites_text Новости Зеленодольска
+						img.logo_sites_pic(src='./assets/img/logo2.png')
+					.header_news
+						h3.header_news_title Новость часа
+						.header_news_text Средневзвешенный курс доллара упал
+					.right_part_header
+						img.tat_logo(src='./assets/img/tm.png' alt='логотип татмедиа')
+						form.find_form(name='finder' action='#' method='post')
+							input.find_input(type='text' name='find' size='50')
+							button.find_btn(type='submit' name='find_bnt') найти
+						.today_date 25 марта, среда
+
+			.content
+				//=====navigation==========
+				nav.main_menu
+					.container
+						ul.menu__list
+							li.menu__item
+								a.menu__link(href="#main") Главная
+							li.menu__item
+								a.menu__link(href="#news") Новости
+							li.menu__item
+								a.menu__link(href="#mob_report") Мобильный репортер
+							li.menu__item
+								a.menu__link(href="#days_photo") Фото дня
+							li.menu__item
+								a.menu__link(href="#video") Видео
+							li.menu__item
+								a.menu__link(href="#glory") Минута славы-2
+							li.menu__item
+								a.menu__link(href="#luck") Сезон удачи
+							li.menu__item
+								a.menu__link(href="#lawyer") Ваш юрист
+							li.menu__item
+								a.menu__link(href="#footballer") Выведи футболиста на поле
+							li.menu__item
+								a.menu__link(href="#about_food") О питании в детсадах
+							li.menu__item
+								a.menu__link(href="#trendy") Маленькие модники и модницы
+						
+				main.main
+					.container
+						//=====left_column======
+						aside.left_aside
+							//=====most_readable===========
+							section.most_readable
+								h2.section_title Самое читаемое
+								ul.left_news_list
+									li.left_news_item
+										time.left_news_time 15.04.2015 15:11
+										.left_news Минздрав предложил убрать алкоголь из супермаркетов.Минздрав предложил убрать алкоголь из супермаркетов.
+									li.left_news_item
+										time.left_news_time 14.04.2015 10:11
+										.left_news В Зеленодольске машина скрылась с места ДТП В Зеленодольске машина скрылась с места ДТП
+									li.left_news_item
+										time.left_news_time 14.04.2015 10:11
+										.left_news Мобильный репортер: центр Зеленодольска оккупировали собаки 
+									li.left_news_item
+										time.left_news_time 14.04.2015 10:11
+										.left_news В Зеленодольске машина скрылась с места ДТП В Зеленодольске машина скрылась с места ДТП
+									li.left_news_item
+										time.left_news_time 14.04.2015 10:11
+										.left_news В Зеленодольском районе распитие алкоголя закончилось госпитализацией
+									li.left_news_item
+										time.left_news_time 14.04.2015 10:11
+										.left_news В Зеленодольске машина скрылась с места ДТП В Зеленодольске машина скрылась с места ДТП
+									li.left_news_item
+										time.left_news_time 14.04.2015 10:11
+										.left_news В Зеленодольске машина скрылась с места ДТП В Зеленодольске машина скрылась с места ДТП
+									
+										time.left_news_time 14.04.2015 10:11
+										.left_news В Зеленодольском районе распитие алкоголя закончилось госпитализацией
+									li.left_news_item
+										time.left_news_time 14.04.2015 10:11
+										.left_news В Зеленодольске машина скрылась с места ДТП В Зеленодольске машина скрылась с места ДТП
+
+							//=====most_commented=======
+							section.most_commented
+								h2.section_title Самое комментируемое
+								ul.left_news_list
+									li.left_news_item
+										.left_news Минздрав предложил убрать алкоголь из супермаркетов.Минздрав предложил убрать алкоголь из супермаркетов.
+										.comments Комментарии 
+											.commensts_count (52)
+										time.left_news_time 13.04.2015 08:38
+									li.left_news_item
+										.left_news В Зеленодольске машина скрылась с места ДТП В Зеленодольске машина скрылась с места ДТП
+										.comments Комментарии 
+											.commensts_count (52)
+										time.left_news_time 13.04.2015 08:38
+									li.left_news_item
+										.left_news В Зеленодольске машина скрылась с места ДТП В Зеленодольске машина скрылась с места ДТП
+										.comments Комментарии 
+											.commensts_count (52)
+										time.left_news_time 13.04.2015 08:38
+									li.left_news_item
+										.left_news В Зеленодольском районе распитие алкоголя закончилось госпитализацией
+										.comments Комментарии 
+											.commensts_count (52)
+										time.left_news_time 13.04.2015 08:38
+
+						//=====article==========
+						article.article
+							ul.article_list
+								//=======main_arcle=========
+								li.article_item.main_article
+									h2.article_title Зеленодольский лыжник &mdash; чемпион России
+									.article_img_block
+										.rubric
+										img.article_img(src='./assets/img/news1.jpg')
+									p.article_text Ударно закончили сезон лыжники из Зеленодольска. В последний день сезона 2014/2015, в пасхальный день 12 апреля, в Мончегорске в традиционном супер-марафоне на 70 км, золотую медаль выиграл трехкратный победитель Всемирной Универсиады, участник чемпионата мира в Фалуне Андрей Ларьков.
+									.looks_likes
+										.looks_count (325)
+										.article_comments Комментарии
+											.article_comments_count (2)
+										.other Подробнее...
+									time.article_date 13.04.2015 08:38
+								//==========other_articles========
+								li.article_item
+									h2.article_title У подписчиков есть шанс выиграть IPad за подписку
+									.article_img_block
+										.rubric Конкурс
+										img.article_img(src='./assets/img/competition.jpg')
+									p.article_text АО &laquo;Татмедиа&raquo; объявляет для своих подписчиков традиционный конкурс &laquo;Ipad за подписку&raquo;. Основноеусловие конкурса &mdash; нужно подписаться не менее чем на три издания АО &laquo;Татмедиа&raquo;.
+									.looks_likes
+										.looks_count (1002)
+										.article_comments Комментарии
+											.article_comments_count (325)
+										.other Подробнее...
+									time.article_date 13.04.2015 08:38
+								
+								li.article_item
+									h2.article_title Каждый день около 30 предпринимателей Татарстана выбирают Сбербанк
+									.article_img_block
+										.rubric Экономика
+										img.article_img(src='./assets/img/news4.jpg')
+									p.article_text В настоящее время в &laquo;Банке Татарстан&raquo; Сбербанка России обслуживается около 26,7 тыс. педпринимателей и компаний малого бизнеса. За 2014 год количество клиентов &mdash; представителей малого изнеса увеличилось более чем на...
+									.looks_likes
+										.looks_count (1002)
+										.article_comments Комментарии
+											.article_comments_count (325)
+										.other Подробнее...
+									time.article_date 13.04.2015 08:38
+
+						//=====right_column=======
+						aside.right_column
+							section.telenews
+								h2.section_title Горячие теленовости
+								ul.telenews_list
+									li.telenews_item 
+										img.telenews_img(src='./assets/img/news2.jpg')
+										.telenews_src "День за Днем"
+										time.telenews_date 10.04.15
+									li.telenews_item 
+										img.telenews_img(src='./assets/img/news3.jpg')
+										.telenews_src "День за Днем"
+										time.telenews_date 10.04.15
+
+	aside.aside_adv
+					ul.aside_adv_list
+						li.aside_adv_item
+							a.aside_adv_link(href='#' target='_blank') Афиша Зеленодольска
+								img.aside_adv_img(src='./assets/img/ad2.png')
+						li.aside_adv_item
+							a.aside_adv_link(href='#' target='_blank') Концерт
+								img.aside_adv_img(src='./assets/img/ad3.png')
+						li.aside_adv_item
+							a.aside_adv_link(href='#' target='_blank') Окна
+								img.aside_adv_img(src='./assets/img/ad4.png')
+						li.aside_adv_item
+							a.aside_adv_link(href='#' target='_blank') Кофе
+								img.aside_adv_img(src='./assets/img/ad5.png')
+						li.aside_adv_item
+							a.aside_adv_link(href='#' target='_blank') Конкурс
+								img.aside_adv_img(src='./assets/img/ad6.png')
+							
+								
+
+					
+footer.footer
+	.container &copy; 2011-2015. Новости Зеленодольска
+

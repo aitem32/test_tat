@@ -1,0 +1,18 @@
+$accentColor: #d77a58;
+$base_font: 16px;
+$footer_heiht: -70px;
+
+
+@import 'common/adjusment';
+@import 'common/func';
+
+body {
+	background-color: #e5e5e5;
+}
+.main_content
+ {
+ 	.container {
+ 		background-color: #fff;	
+ 	}
+	
+}
