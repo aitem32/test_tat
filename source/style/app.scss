@@ -126,7 +126,7 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
-}
+	}
 
 .tat_logo,
 .find_form {
@@ -138,6 +138,69 @@ body {
 	display: inline-block;
 	padding: 3px;
 	font-size: 10px;
-	color: grey;
+	color: gray;
 }
-//==========nnnavigation======
+//==========navigation======
+.menu__list {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	margin: 0;
+}
+
+.other_nav {
+	padding: 10px;
+	background-color: #e2e2e2;
+	margin-bottom: 10px;
+}
+.menu__link{
+	text-transform: uppercase;
+	color: #656565;
+	font-weight: bold;
+	font-size: 14px;
+	&:active {
+		color: #fe0000;
+	}
+}
+
+//=========main==============
+.main {
+	display: flex;
+	&:nth-child{
+		margin-left: 10px;
+	}
+}
+.section_title {
+	display: block;
+	padding: 10px;
+}
+
+//=========left_columns=========
+.left_news_item {
+	margin-bottom: 10px;
+}
+
+.left_news_time {
+	background-color: #e5e5e5;
+	color: gray;
+	display: inline-block;
+	padding: 0 2px;
+}
+
+.attention {
+	.left_news_time {
+		background-color: #fe0000;
+		color: #fff;
+	}
+}
+
+.most_commented {
+	.left_news_item {
+		font-weight: bold;
+	}
+}
+.comments {
+	display: inline-block;
+
+	
+}

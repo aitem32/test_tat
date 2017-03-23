@@ -31,7 +31,7 @@
 
 				//=====navigation==========
 				nav.main_menu
-							ul.menu__list
+						ul.main_nav.menu__list
 								li.menu__item
 									a.menu__link(href="#main") Главная
 								li.menu__item
@@ -44,6 +44,8 @@
 									a.menu__link(href="#video") Видео
 								li.menu__item
 									a.menu__link(href="#glory") Минута славы-2
+									
+						ul.other_nav.menu__list
 								li.menu__item
 									a.menu__link(href="#luck") Сезон удачи
 								li.menu__item
@@ -60,7 +62,7 @@
 							aside.left_aside
 								//=====most_readable===========
 								section.most_readable
-									h2.section_title.grey_bg Самое читаемое
+									a.section_title.grey_bg(href='#') Самое читаемое
 									ul.left_news_list
 										li.left_news_item
 											time.left_news_time 15.04.2015 15:11
@@ -68,7 +70,7 @@
 										li.left_news_item
 											time.left_news_time 14.04.2015 10:11
 											.left_news В Зеленодольске машина скрылась с места ДТП В Зеленодольске машина скрылась с места ДТП
-										li.left_news_item
+										li.left_news_item.attention
 											time.left_news_time 14.04.2015 10:11
 											.left_news Мобильный репортер: центр Зеленодольска оккупировали собаки 
 										li.left_news_item
@@ -86,13 +88,13 @@
 										
 											time.left_news_time 14.04.2015 10:11
 											.left_news В Зеленодольском районе распитие алкоголя закончилось госпитализацией
-										li.left_news_item
+										li.left_news_item.attention
 											time.left_news_time 14.04.2015 10:11
 											.left_news В Зеленодольске машина скрылась с места ДТП В Зеленодольске машина скрылась с места ДТП
 
 								//=====most_commented=======
 								section.most_commented
-									h2.section_title.grey_bg Самое комментируемое
+									a.section_title.grey_bg(href='#') Самое комментируемое
 									ul.left_news_list
 										li.left_news_item
 											.left_news Минздрав предложил убрать алкоголь из супермаркетов.Минздрав предложил убрать алкоголь из супермаркетов.
@@ -161,7 +163,7 @@
 							//=====right_column=======
 							aside.right_column
 								section.telenews
-									h2.section_title.grey_bg Горячие теленовости
+									a.section_title.grey_bg(href='#') Горячие теленовости
 									ul.telenews_list
 										li.telenews_item 
 											img.telenews_img(src='./assets/img/news2.jpg')
